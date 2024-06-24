@@ -1,0 +1,1 @@
+export const SERVER_URL = "https://mern-crud-app-backend-ttxd.onrender.com"

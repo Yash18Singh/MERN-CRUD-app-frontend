@@ -1,0 +1,52 @@
+.add-user{
+    width:25%;
+    background-color: white;
+    box-shadow: 1px 1px 8px black;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding:50px;
+}
+
+.add-user-form{
+    margin-top:20px;
+}
+
+.input-group{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-group label{
+    margin-bottom:5px;
+}
+
+.input-group input{
+    margin-bottom:10px;
+    padding:10px;
+    outline:none;
+    font-size:16px;
+    border-radius:10px;
+    box-shadow:1px 1px 10px rgba(0, 0, 0, 0.658);
+}
+
+
+.input-group button{
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px black;
+    border-radius: 5px;
+    padding:10px;
+    border:2px solid black;
+    font-size:16px;
+    cursor:pointer;
+    margin-top:30px;
+}
+
+
+.add-user i{
+    font-size:25px;
+}

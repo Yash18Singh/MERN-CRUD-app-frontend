@@ -1,0 +1,52 @@
+.user-table{
+    width: 60%;
+    background-color: white;
+    box-shadow: 1px 1px 8px black;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding:50px;
+}
+
+
+.add-btn{
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px black;
+    border-radius: 5px;
+    padding:10px;
+    border:2px solid black;
+    cursor:pointer;
+}
+
+
+.user-table > table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+
+.user-table > table thead th {
+    background-color: rgb(54, 0, 54);
+    color: white;
+    padding: 20px;
+}
+
+.user-table > table tbody td{
+    padding: 20px;
+    text-align: center;
+}
+
+
+.table-btn{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+
+i{
+    font-size:16px;
+}
